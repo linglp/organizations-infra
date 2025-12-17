@@ -267,6 +267,8 @@ Resources:
           #-------------------------------------------
           - Value: "arn:aws:s3:::synapse-croissant-metadata"  # See ticket DPE-1234
             Comparison: "PREFIX"
+          - Value: "arn:aws:s3:::synapse-croissant-metadata-minimal"  # See ticket DPE-1521
+            Comparison: "PREFIX"
           - Value: "AWS::::Account:140124849929"   # This should only match with 2.1.5.1
             Comparison: "PREFIX"
       Actions:
